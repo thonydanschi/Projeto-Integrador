@@ -93,7 +93,7 @@ public class Adega3oretorno {
                                 } else {
                                     quantidades[indice] -= qtdVenda;
                                     double valorTotalVenda = qtdVenda * precosVenda[indice];
-                                    double desconto = 0.0; // Reinicia o desconto a cada nova venda
+                                    double desconto = 0.0;
 
                                     if (qtdVenda >= 10) {
                                         desconto = valorTotalVenda * 0.10;
