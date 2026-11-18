@@ -100,7 +100,7 @@ public class Adega3oretorno {
                                         valorTotalVenda -= desconto;
                                     }
                                     
-                                    double imposto = valorTotalVenda * (aliquotas[indice] / (100.0 + aliquotas[indice]));
+                                    double imposto = valorTotalVenda * (aliquotas[indice] / 100.0);
                                     double receitaLiquida = valorTotalVenda - imposto;
                                     
                                     caixaDoDia += valorTotalVenda;
